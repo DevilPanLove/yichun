@@ -1,0 +1,32 @@
+{
+	"a":{"src":"goods3_images/01.jpg",
+		"good":"男童中长棉衣",
+		"price":455,
+		"newPrice":379
+	},
+	"b":{"src":"goods3_images/02.jpg",
+		"good":"女童棉衣",
+		"price":587,
+		"newPrice":489
+	},
+	"c":{"src":"goods3_images/03.jpg",
+		"good":"女中童棉衣背心",
+		"price":335,
+		"newPrice":279
+	},
+	"d":{"src":"goods3_images/04.jpg",
+		"good":"女中童中长羽绒服",
+		"price":671,
+		"newPrice":559
+	},
+	"e":{"src":"goods3_images/05.jpg",
+		"good":"男童羽绒外套",
+		"price":647,
+		"newPrice":539
+	},
+	"f":{"src":"goods3_images/06.jpg",
+		"good":"男童中长棉衣",
+		"price":455,
+		"newPrice":379
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"a":{"src":"goods3_images/05.jpg",
+		"good":"男童羽绒外套",
+		"price":647,
+		"newPrice":539
+	},
+	"b":{"src":"goods3_images/06.jpg",
+		"good":"男童中长棉衣",
+		"price":455,
+		"newPrice":379
+	}
+}

@@ -1,0 +1,776 @@
+/* CSS Document */
+
+
+/*banner轮播图*/
+
+._banner {
+	width: 1349px;
+	height: 450px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 9px;
+}
+
+.banner a {
+	display: none;
+}
+
+.banner img {
+	position: absolute;
+}
+
+.num {
+	position: absolute;
+	cursor: pointer;
+	left: 606px;
+	top: 380px;
+}
+
+.num li {
+	float: left;
+	background: #ccc;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	list-style: none;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.num li:hover {
+	background: #F30
+}
+
+.num .sty {
+	background: #c80a28;
+}
+
+.como {
+	width: 52px;
+	height: 63px;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -31px;
+	filter: alpha(opacity: 70);
+	opacity: 0.7;
+}
+
+.prev {
+	left: 64px;
+	background: url(../images/prev.jpg);
+}
+
+.next {
+	right: 64px;
+	background: url(../images/next.jpg);
+}
+
+
+/*女装*/
+
+._ban {
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 18px;
+}
+
+.ban {
+	width: 1206px
+}
+
+._ban a {
+	float: left;
+	margin-right: 11px;
+}
+
+.mid {
+	width: 1200px;
+	height: 390px;
+	margin: 0 auto;
+	margin-bottom: 14px
+}
+
+.mid-left {
+	width: 153px;
+	height: 390px;
+	background: url(../images/f1.jpg);
+	margin-right: 10px;
+	float: left;
+}
+
+.mid-left a {
+	width: 100%;
+	height: 65px;
+	display: block;
+}
+
+.mid-top {
+	width: 1000px;
+	height: 32px;
+	background: #c80a29;
+	float: left;
+	margin-bottom: 6px;
+	padding-left: 20px;
+	padding-right: 17px;
+	color: #fff
+}
+
+.mid-top h2 {
+	font-size: 16px;
+	line-height: 32px;
+	float: left;
+}
+
+.mid-top div {
+	float: right;
+	margin-top: 10px;
+	cursor: pointer
+}
+
+.mid-top div a {
+	color: #fff
+}
+
+.mid-top div span {
+	margin: 0 10px;
+}
+
+.mid-bot {
+	width: 1037px;
+	height: 352px;
+	float: left;
+}
+
+.mid-nav {
+	width: 785px;
+	height: 352px;
+	position: relative;
+	overflow: hidden;
+	float: left
+}
+
+.mid-nav div {
+	position: absolute;
+}
+
+.mid-num {
+	position: absolute;
+	right: 12px;
+	bottom: 12px;
+}
+
+.mid-num li {
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	background: #fff;
+	float: left;
+	margin-right: 6px;
+	cursor: pointer;
+}
+
+.mid-num .sty {
+	background: #c80a28;
+	color: #fff
+}
+
+.mid-bot-right {
+	float: right;
+	width: 242px;
+	height: 352px
+}
+
+
+/**/
+
+.woman {
+	width: 1200px;
+	height: 590px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.woman div {
+	width: 1205px;
+	height: 596px;
+}
+
+.woman div dl {
+	width: 230px;
+	height: 285px;
+	border: 1px solid #ccc;
+	margin: 0 9px 6px 0;
+	float: left;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.woman div dl dt {
+	width: 230px;
+	height: 220px;
+	margin-bottom: 3px;
+}
+
+.woman div dl a {
+	text-decoration: none;
+}
+
+.woman div dl span {
+	font-size: 14px
+}
+
+.other a {
+	color: #c80a28;
+	width: 66px;
+	height: 12px;
+	background: url(../images/other.png) no-repeat 60px -6px;
+	display: block;
+	margin-left: 80px
+}
+
+.woman div dl dd {
+	line-height: 18px
+}
+
+
+/*精品男装*/
+
+.mid2 {
+	width: 1200px;
+	height: 390px;
+	margin: 0 auto;
+	margin-bottom: 14px
+}
+
+.mid2-left {
+	width: 153px;
+	height: 390px;
+	background: url(../images/f2.jpg);
+	margin-right: 10px;
+	float: left;
+}
+
+.mid2-left a {
+	width: 100%;
+	height: 65px;
+	display: block;
+}
+
+.mid2-top {
+	width: 1000px;
+	height: 32px;
+	background: #353535;
+	float: left;
+	margin-bottom: 6px;
+	padding-left: 20px;
+	padding-right: 17px;
+	color: #fff
+}
+
+.mid2-top h2 {
+	font-size: 16px;
+	line-height: 32px;
+	float: left;
+}
+
+.mid2-top div {
+	float: right;
+	margin-top: 10px;
+	cursor: pointer
+}
+
+.mid2-top div a {
+	color: #fff
+}
+
+.mid2-top div span {
+	margin: 0 10px;
+}
+
+.mid2-bot {
+	width: 1037px;
+	height: 352px;
+	float: left;
+}
+
+.mid2-nav {
+	width: 785px;
+	height: 352px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.mid2-nav div {
+	position: absolute;
+	width: 2655px
+}
+
+.mid2-num {
+	position: absolute;
+	right: 12px;
+	bottom: 12px;
+}
+
+.mid2-num li {
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	background: #fff;
+	float: left;
+	margin-right: 6px;
+	cursor: pointer;
+}
+
+.mid2-num .sty {
+	background: #353535;
+	color: #fff
+}
+
+.mid2-bot-right {
+	float: right;
+	width: 242px;
+	height: 352px
+}
+
+.mar {
+	margin: 11px 0;
+}
+
+
+/**/
+
+.man {
+	width: 1200px;
+	height: 322px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 10px
+}
+
+.man div {
+	width: 1208px;
+	height: 322px;
+}
+
+.man div dl {
+	width: 290px;
+	height: 315px;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	float: left;
+	padding-top: 5px;
+	position: relative
+}
+
+.man div dl dd {
+	line-height: 35px;
+	text-align: center;
+}
+
+.man div dl a {
+	text-decoration: none;
+}
+
+.man div dl span {
+	font-size: 14px;
+	position: absolute;
+	right: 5px;
+	bottom: 6px
+}
+
+
+/*可爱童装*/
+
+.mid3 {
+	width: 1200px;
+	height: 390px;
+	margin: 0 auto;
+	margin-bottom: 14px
+}
+
+.mid3-left {
+	width: 153px;
+	height: 390px;
+	background: url(../images/f3.jpg);
+	margin-right: 10px;
+	float: left;
+}
+
+.mid3-left a {
+	width: 100%;
+	height: 65px;
+	display: block;
+}
+
+.mid3-top {
+	width: 1000px;
+	height: 32px;
+	background: #0799cc;
+	float: left;
+	margin-bottom: 6px;
+	padding-left: 20px;
+	padding-right: 17px;
+	color: #fff
+}
+
+.mid3-top h2 {
+	font-size: 16px;
+	line-height: 32px;
+	float: left;
+}
+
+.mid3-top div {
+	float: right;
+	margin-top: 10px;
+	cursor: pointer
+}
+
+.mid3-top div a {
+	color: #fff
+}
+
+.mid3-top div span {
+	margin: 0 10px;
+}
+
+.mid3-bot {
+	width: 1037px;
+	height: 352px;
+	float: left;
+}
+
+.mid3-nav {
+	width: 785px;
+	height: 352px;
+	overflow: hidden;
+	float: left
+}
+
+.mid3-bot-right {
+	float: right;
+	width: 242px;
+	height: 352px
+}
+
+
+/**/
+
+.child {
+	width: 1200px;
+	height: 262px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 10px
+}
+
+.child div {
+	width: 1210px;
+	height: 262px;
+}
+
+.child div dl {
+	width: 232px;
+	height: 262px;
+	margin-right: 10px;
+	float: left;
+}
+
+.child div dl dd {
+	width: 226px;
+	height: 30px;
+	background: #0199ec;
+	padding-left: 6px
+}
+
+.child div dl span {
+	color: #fff;
+	line-height: 30px;
+}
+
+.child div dl .under {
+	text-decoration: line-through;
+	margin-right: 42px;
+}
+
+.child div dl .col {
+	color: #fffd02;
+	font-size: 14px;
+	font-weight: bold
+}
+
+
+/*mid-banner*/
+
+.mid-banner {
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+	margin-bottom: 10px
+}
+
+
+/*配衬*/
+
+.mid4 {
+	width: 1200px;
+	height: 390px;
+	margin: 0 auto;
+	margin-bottom: 14px
+}
+
+.mid4-left {
+	width: 153px;
+	height: 390px;
+	background: url(../images/f4.jpg);
+	margin-right: 10px;
+	float: left;
+}
+
+.mid4-left a {
+	width: 100%;
+	height: 65px;
+	display: block;
+}
+
+.mid4-top {
+	width: 1000px;
+	height: 32px;
+	background: #dccda2;
+	float: left;
+	margin-bottom: 6px;
+	padding-left: 20px;
+	padding-right: 17px;
+	color: #fff
+}
+
+.mid4-top h2 {
+	font-size: 16px;
+	line-height: 32px;
+	float: left;
+}
+
+.mid4-top div {
+	float: right;
+	margin-top: 10px;
+	cursor: pointer
+}
+
+.mid4-top div a {
+	color: #444
+}
+
+.mid4-top div span {
+	margin: 0 10px;
+	color: #444
+}
+
+.mid4-bot {
+	width: 1037px;
+	height: 352px;
+	float: left;
+}
+
+.mid4-nav {
+	width: 785px;
+	height: 352px;
+	overflow: hidden;
+	float: left
+}
+
+.mid4-bot-right {
+	float: right;
+	width: 242px;
+	height: 352px
+}
+
+
+/**/
+
+.acces {
+	width: 1200px;
+	height: 292px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 16px
+}
+
+.acces div {
+	width: 1205px;
+	height: 292px;
+}
+
+.acces div dl {
+	width: 230px;
+	height: 285px;
+	border: 1px solid #ccc;
+	margin: 0 9px 6px 0;
+	float: left;
+	padding-top: 5px;
+	text-align: center
+}
+
+.acces div dl dt {
+	width: 230px;
+	height: 220px;
+	margin-bottom: 3px;
+}
+
+.acces div dl a {
+	text-decoration: none;
+}
+
+.acces div dl span {
+	font-size: 14px
+}
+
+.other a {
+	color: #c80a28;
+	width: 66px;
+	height: 12px;
+	background: url(../images/other.png) no-repeat 60px -6px;
+	display: block;
+	margin-left: 80px
+}
+
+.acces div dl dd {
+	line-height: 18px
+}
+
+
+/*news*/
+
+.mid5 {
+	width: 1200px;
+	height: 356px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.news {
+	width: 697px;
+	height: 356px;
+	float: left;
+	margin-right: 15px
+}
+
+.active {
+	width: 488px;
+	height: 356px;
+	float: left;
+}
+
+.active h2,
+.news h2 {
+	padding-left: 6px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	background: #e7e7e7;
+	margin-bottom: 5px
+}
+
+.news h2 {
+	width: 691px
+}
+
+.active h2 {
+	width: 482px
+}
+
+.new-bot {
+	width: 697px;
+	height: 321px;
+}
+
+.new-left {
+	float: left;
+	margin-right: 6px;
+}
+
+.new-right1 {
+	margin-bottom: 6px;
+	float: left;
+}
+
+.new-right2 {
+	float: left;
+}
+
+.new-right3 {
+	float: right;
+}
+
+
+/*active*/
+
+.act-left {
+	width: 324px;
+	height: 321px;
+	float: left;
+	margin-right: 5px;
+}
+
+.act-left1 {
+	float: left;
+	margin-right: 6px;
+}
+
+.act-left2 {
+	float: left;
+}
+
+.act-left3 {
+	margin-top: 6px;
+	float: left;
+}
+
+.act-right {
+	width: 159px;
+	height: 321px;
+	float: left;
+}
+
+.act-right1 {
+	margin-bottom: 6px;
+}
+
+
+/*首页延迟动画*/
+
+.hid {
+	width: 100%;
+	;
+	height: 450px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: url(../images/top.jpg) no-repeat center;
+}
+
+.shower {
+	width: 100%;
+	height: 90px;
+	margin: 0 auto;
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background: url(../images/top1.jpg) no-repeat center;
+}
+
+.up {
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+	top: 450px;
+}

@@ -1,0 +1,35 @@
+/* CSS Document */
+.middle_top{
+	width:1194px;
+	height:56px;
+	margin:0 auto;
+	line-height:56px;
+	padding-left:6px;
+	margin-bottom:10px;	
+}
+.middle_top>span{
+	margin:0 10px;
+	font-size:14px;	
+}
+.middle_top a{
+	text-decoration:none;
+}
+.middle{
+	width:1200px;
+	height:1130px;
+	margin:0 auto;	
+}
+.middle_left{
+	float:left;	
+}
+.middle_left>div{
+	width:190px;
+	height:37px;
+	background:url(../images/hot.png) no-repeat 11px 7px;	
+}
+.middle_left li{
+	line-height:28px;
+	height:28px;
+	padding-left:26px;
+	list-style:inside;	
+}
