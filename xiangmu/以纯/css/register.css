@@ -1,0 +1,94 @@
+/* CSS Document */
+
+.mid {
+	width: 1200px;
+	height: 630px;
+	margin: 0 auto;
+}
+
+.mid-top {
+	width: 1190px;
+	height: 38px;
+	padding-right: 10px;
+	line-height: 28px;
+}
+
+.mid-top>div {
+	float: right;
+}
+
+.mid-top>a {
+	float: right;
+	color: #000;
+	text-decoration: none;
+}
+
+.mid-top>span {
+	float: right;
+	margin: 0 5px;
+	font-size: 16px
+}
+._mid{
+	width:792px;
+	height:548px;
+	border:4px solid #ececec;
+	margin:10px auto 0;	
+	overflow:hidden;
+}
+.join_title{
+	margin:60px auto 34px;
+	width:206px;
+	height:39px;	
+}
+.tab{
+	margin-left:100px;	
+}
+.tab table{
+	border-spacing:10px;
+	width:600px;
+	height:100px;
+	empty-cells:hide;	
+}
+
+.tab td{
+	width:212px;
+	height:20px;
+	line-height:20px;	
+}
+.tab tr>td:first-child{
+	text-align:right;
+}
+.tab div{
+	width:45px;
+	height:18px;
+	float:left;
+	border-bottom:2px solid #fff;
+	text-align:center;
+	line-height:18px;
+		
+}
+.inp{
+	width:210px;
+	height:20px;
+	background:#f3f3f3;	
+	border:1px solid #ccc;
+}
+.tab .usercheck{
+	color:#00f;	
+	text-decoration:none;
+}
+{
+	display:block;
+	width:210px;
+	background:red;	
+}
+.tab span{
+	color:red;	
+}
+.resub{
+	width:212px;
+	height:90px;
+	background:url(../login-img/register.gif) no-repeat;
+	border:none;
+	cursor:pointer;	
+}
